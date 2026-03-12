@@ -1,15 +1,6 @@
-import { Text, View } from "react-native";
+import { View } from "react-native";
+import "../global.css";
 
 export default function Index() {
-  return (
-    <View
-      style={{
-        flex: 1,
-        justifyContent: "center",
-        alignItems: "center",
-      }}
-    >
-      <Text>Hola mundo</Text>
-    </View>
-  );
+  return <View className="flex-1 items-center justify-center bg-white"></View>;
 }
